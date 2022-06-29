@@ -16,6 +16,7 @@
 		15C182DA286BE576000073F2 /* HomeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C182D9286BE576000073F2 /* HomeMapView.swift */; };
 		15C182DD286BE66E000073F2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C182DC286BE66E000073F2 /* MapViewController.swift */; };
 		15C182E0286BEE88000073F2 /* SlideOverCard in Frameworks */ = {isa = PBXBuildFile; productRef = 15C182DF286BEE88000073F2 /* SlideOverCard */; };
+		15C182E2286BEF8D000073F2 /* HomeMapCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C182E1286BEF8D000073F2 /* HomeMapCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		15C182CD286BDA3F000073F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15C182D9286BE576000073F2 /* HomeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMapView.swift; sourceTree = "<group>"; };
 		15C182DC286BE66E000073F2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		15C182E1286BEF8D000073F2 /* HomeMapCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMapCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				15C182D9286BE576000073F2 /* HomeMapView.swift */,
+				15C182E1286BEF8D000073F2 /* HomeMapCardView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			files = (
 				15C182C2286BD3F2000073F2 /* HomeMapScreen.swift in Sources */,
 				15C182DA286BE576000073F2 /* HomeMapView.swift in Sources */,
+				15C182E2286BEF8D000073F2 /* HomeMapCardView.swift in Sources */,
 				15C182C0286BD3F2000073F2 /* MapboxApp.swift in Sources */,
 				15C182DD286BE66E000073F2 /* MapViewController.swift in Sources */,
 			);

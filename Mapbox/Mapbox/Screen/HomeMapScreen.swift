@@ -9,8 +9,12 @@ import SwiftUI
 
 struct HomeMapScreen: View {
     var body: some View {
+      ZStack {
         HomeMapView()
-        .ignoresSafeArea()
+          .ignoresSafeArea()
+        
+        HomeMapCardView()
+      }
     }
 }
 
