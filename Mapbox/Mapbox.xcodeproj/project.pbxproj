@@ -15,6 +15,7 @@
 		15C182D2286BDD96000073F2 /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 15C182D1286BDD96000073F2 /* MapboxNavigation */; };
 		15C182DA286BE576000073F2 /* HomeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C182D9286BE576000073F2 /* HomeMapView.swift */; };
 		15C182DD286BE66E000073F2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C182DC286BE66E000073F2 /* MapViewController.swift */; };
+		15C182E0286BEE88000073F2 /* SlideOverCard in Frameworks */ = {isa = PBXBuildFile; productRef = 15C182DF286BEE88000073F2 /* SlideOverCard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15C182D0286BDD96000073F2 /* MapboxCoreNavigation in Frameworks */,
+				15C182E0286BEE88000073F2 /* SlideOverCard in Frameworks */,
 				15C182D2286BDD96000073F2 /* MapboxNavigation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +156,7 @@
 			packageProductDependencies = (
 				15C182CF286BDD96000073F2 /* MapboxCoreNavigation */,
 				15C182D1286BDD96000073F2 /* MapboxNavigation */,
+				15C182DF286BEE88000073F2 /* SlideOverCard */,
 			);
 			productName = Mapbox;
 			productReference = 15C182BC286BD3F2000073F2 /* Mapbox.app */;
@@ -185,6 +188,7 @@
 			mainGroup = 15C182B3286BD3F2000073F2;
 			packageReferences = (
 				15C182CE286BDD96000073F2 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
+				15C182DE286BEE88000073F2 /* XCRemoteSwiftPackageReference "swiftUI-slide-over-card" */,
 			);
 			productRefGroup = 15C182BD286BD3F2000073F2 /* Products */;
 			projectDirPath = "";
@@ -428,6 +432,14 @@
 				minimumVersion = 2.5.0;
 			};
 		};
+		15C182DE286BEE88000073F2 /* XCRemoteSwiftPackageReference "swiftUI-slide-over-card" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/moifort/swiftUI-slide-over-card.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -440,6 +452,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 15C182CE286BDD96000073F2 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
 			productName = MapboxNavigation;
+		};
+		15C182DF286BEE88000073F2 /* SlideOverCard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15C182DE286BEE88000073F2 /* XCRemoteSwiftPackageReference "swiftUI-slide-over-card" */;
+			productName = SlideOverCard;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
