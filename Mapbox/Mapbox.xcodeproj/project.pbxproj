@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		15C182C0286BD3F2000073F2 /* MapboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C182BF286BD3F2000073F2 /* MapboxApp.swift */; };
-		15C182C2286BD3F2000073F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C182C1286BD3F2000073F2 /* ContentView.swift */; };
+		15C182C2286BD3F2000073F2 /* HomeMapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C182C1286BD3F2000073F2 /* HomeMapScreen.swift */; };
 		15C182C4286BD3F4000073F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C182C3286BD3F4000073F2 /* Assets.xcassets */; };
 		15C182C7286BD3F4000073F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C182C6286BD3F4000073F2 /* Preview Assets.xcassets */; };
 		15C182D0286BDD96000073F2 /* MapboxCoreNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 15C182CF286BDD96000073F2 /* MapboxCoreNavigation */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		15C182BC286BD3F2000073F2 /* Mapbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C182BF286BD3F2000073F2 /* MapboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxApp.swift; sourceTree = "<group>"; };
-		15C182C1286BD3F2000073F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15C182C1286BD3F2000073F2 /* HomeMapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMapScreen.swift; sourceTree = "<group>"; };
 		15C182C3286BD3F4000073F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15C182C6286BD3F4000073F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15C182CD286BDA3F000073F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		15C182D5286BE540000073F2 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				15C182C1286BD3F2000073F2 /* ContentView.swift */,
+				15C182C1286BD3F2000073F2 /* HomeMapScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15C182C2286BD3F2000073F2 /* ContentView.swift in Sources */,
+				15C182C2286BD3F2000073F2 /* HomeMapScreen.swift in Sources */,
 				15C182DA286BE576000073F2 /* HomeMapView.swift in Sources */,
 				15C182C0286BD3F2000073F2 /* MapboxApp.swift in Sources */,
 				15C182DD286BE66E000073F2 /* MapViewController.swift in Sources */,
